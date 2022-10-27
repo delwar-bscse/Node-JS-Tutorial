@@ -1,1 +1,1 @@
-Text go inside the file
+Text go inside the fileAppend file don't overwrite previous text

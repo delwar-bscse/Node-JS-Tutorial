@@ -3,7 +3,7 @@ const fs = require('fs');
 
 // fs.writeFile('fileName',"fileContent", anonymousFucntion)
 
-fs.writeFile('Demo1.txt',"Text go inside the file", (err)=>{
+fs.appendFile('Demo1.txt',"Append file don't overwrite previous text", (err)=>{
     if(err){
         console.log("Failed")
     }else{
