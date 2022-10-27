@@ -1,5 +1,4 @@
-const mySelf = require('./students');
+const {myName, myAge} = require('./students');
 
 
-console.log(mySelf.myName());
-console.log(mySelf.myAge);
+console.log(myName(myAge));

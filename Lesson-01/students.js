@@ -1,8 +1,8 @@
 
 exports.myAge = 25;
 
-exports.myName = () =>{
-    return `Md. Delwar Hossain`;
+exports.myName = (N) =>{
+    return `Name\t: Md. Delwar Hossain \nAge\t: ${N}`;
 }
 
 // exports.myAge = myAge;
