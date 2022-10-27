@@ -1,12 +1,12 @@
 
 const fs = require('fs');
 
-// fs.readFile('fileName','encodingSystem, (err, data)=>{})
+// fs.rename('previousFileName','newFileName, (err)=>{})
 
-fs.readFile('Demo1.txt','utf-8', (err,data)=>{
+fs.rename('Demo1.txt','Demo2.txt', (err)=>{
     if(err){
-        console.log("Failed to Read File");
+        console.log(err);
     }else{
-        console.log(`\n${data}\n`);
+        console.log(`Successfully Renamed`);
     }
 })
