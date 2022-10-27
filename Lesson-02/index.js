@@ -1,12 +1,12 @@
 
 const fs = require('fs');
 
-// fs.rename('fileName', (err)=>{})
+// fs.exists('fileName', (res)=>{})
 
-fs.unlink('Demo2.txt', (err)=>{
-    if(err){
-        console.log(err);
+fs.exists('Demo2.txt', (res)=>{
+    if(res){
+        console.log(`File found`);
     }else{
-        console.log(`Successfully Deleted`);
+        console.log(`Not found`);
     }
 })
