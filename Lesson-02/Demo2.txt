@@ -1,2 +1,0 @@
-Text will go inside the file
-ReadFile only can read data of a file.
