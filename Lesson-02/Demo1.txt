@@ -1,1 +1,2 @@
-Text go inside the fileAppend file don't overwrite previous text
+Text will go inside the file
+ReadFile only can read data of a file.

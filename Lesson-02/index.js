@@ -1,12 +1,12 @@
 
 const fs = require('fs');
 
-// fs.writeFile('fileName',"fileContent", anonymousFucntion)
+// fs.readFile('fileName','encodingSystem, (err, data)=>{})
 
-fs.appendFile('Demo1.txt',"Append file don't overwrite previous text", (err)=>{
+fs.readFile('Demo1.txt','utf-8', (err,data)=>{
     if(err){
-        console.log("Failed")
+        console.log("Failed to Read File");
     }else{
-        console.log("Successfully write file")
+        console.log(`\n${data}\n`);
     }
 })
