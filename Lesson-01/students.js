@@ -1,14 +1,14 @@
 
-const myAge = 25;
+exports.myAge = 25;
 
-const myName = () =>{
+exports.myName = () =>{
     return `Md. Delwar Hossain`;
 }
 
 // exports.myAge = myAge;
 // exports.myName = myName;
 
-module.exports = {
-    myAge,
-    myName
-}
+// module.exports = {
+//     myAge,
+//     myName
+// }
