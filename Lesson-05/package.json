@@ -1,0 +1,19 @@
+{
+  "name": "lesson-05",
+  "version": "1.0.0",
+  "description": "npm testing project",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "M D Hossain",
+  "license": "ISC",
+  "dependencies": {
+    "movies-names": "^1.1.1",
+    "random-fruits-name": "^1.9.5"
+  }
+}
