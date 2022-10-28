@@ -1,3 +1,8 @@
+const path = require('path');
 
-console.log(`\nDirectory : ${__dirname}`);
-console.log(`File Name : ${__filename}\n`);
+const ex = path.extname("index.html");
+console.log(`\nExtention : ${ex}`);
+
+
+const jn = path.join(__dirname+"/index.js");
+console.log(`Join : ${jn}\n`);
