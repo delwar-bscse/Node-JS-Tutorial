@@ -1,5 +1,3 @@
-const {userInfo, version} = require('os');
 
-console.log(userInfo());
-
-console.log(version());
+console.log(`\nDirectory : ${__dirname}`);
+console.log(`File Name : ${__filename}\n`);
