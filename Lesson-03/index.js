@@ -1,9 +1,5 @@
-const os = require('os');
+const {userInfo, version} = require('os');
 
-console.log(os.userInfo());
-console.log(os.homedir());
-console.log(os.hostname());
+console.log(userInfo());
 
-console.log(os.totalmem());
-console.log(os.freemem());
-console.log(os.version());
+console.log(version());
